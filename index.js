@@ -14,3 +14,8 @@ function mapToDouble(array) {
 function mapToSquare(array) {
   return array.map(x => x * x)
 }
+
+function reduceToTotal(array) {
+  const answer = array.reduce((acc, val) = acc + val);
+  return answer;
+}
