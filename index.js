@@ -16,6 +16,6 @@ function mapToSquare(array) {
 }
 
 function reduceToTotal(array) {
-  const answer = array.reduce((acc, val) = acc + val);
+  const answer = array.reduce((acc, val) => acc + val);
   return answer;
-}
+};
